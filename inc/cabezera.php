@@ -16,6 +16,7 @@
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
+                background-color: #5D99C6;
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -38,15 +39,10 @@
           </button>
           <a class="navbar-brand" href="#">Ideas y servicios</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">entrar</button>
+        <div  id="navbar" class="navbar-collapse collapse">
+           
+          <form class="navbar-form navbar-right" role="form" >
+
           </form>
         </div><!--/.navbar-collapse -->
       </div>

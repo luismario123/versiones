@@ -959,6 +959,7 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
+
 .img-circle {
   border-radius: 50%;
 }
@@ -1392,20 +1393,24 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: red;
 }
 @media (min-width: 768px) {
   .container {
     width: 750px;
+    background-color: red;
   }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
+    background-color: red;
   }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+    background-color: red;
   }
 }
 .container-fluid {
@@ -1413,6 +1418,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: red;
 }
 .row {
   margin-right: -15px;
@@ -3148,12 +3154,14 @@ input[type="button"].btn-block {
   opacity: 1;
 }
 .collapse {
-  display: none;
-  visibility: hidden;
+  color-interpolation-filters: red;
+  background-color: red;
 }
 .collapse.in {
   display: block;
   visibility: visible;
+  color-interpolation-filters: red;
+  background-color: red;
 }
 tr.collapse.in {
   display: table-row;
@@ -3899,6 +3907,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
+  background-color: red;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
@@ -3907,6 +3916,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container-fluid > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
+    background-color: red;
   }
 }
 .navbar-static-top {
@@ -4622,7 +4632,7 @@ a.badge:focus {
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
-  color: inherit;
+  color: red;
   background-color: #eee;
 }
 .jumbotron h1,
@@ -4635,10 +4645,11 @@ a.badge:focus {
   font-weight: 200;
 }
 .jumbotron > hr {
-  border-top-color: #d5d5d5;
+  border-top-color: red;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
+ background-color: red;
   border-radius: 6px;
 }
 .jumbotron .container {
@@ -4652,6 +4663,7 @@ a.badge:focus {
   .container-fluid .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
+    background-color: red;
   }
   .jumbotron h1,
   .jumbotron .h1 {
