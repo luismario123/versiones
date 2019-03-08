@@ -1,0 +1,12 @@
+.encabezado{
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+.info{
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
